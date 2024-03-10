@@ -1,9 +1,0 @@
-name: "Terraform Deploy Stage"
-run-name: ${{ github.actor }} is running TF Stage Deploy
-
-on:
-  workflow_dispatch:
-
-defaults:
-  run:
-    shell: bash
